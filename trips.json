@@ -1,0 +1,14 @@
+var list_json = {"trips":[
+  {
+    "location": "Lake District",
+    "start-date": "29-01-2016",
+    "end-date": "01-02-2016",
+    "hut": "Newlands Valley"
+  },
+  {
+    "location": "North Wales",
+    "start-date": "13-02-2016",
+    "end-date": "15-02-2016",
+    "hut": "LLamberis mountain hut"
+  }
+]}

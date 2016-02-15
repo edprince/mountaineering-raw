@@ -99,8 +99,28 @@ nav ul {
   box-shadow: inset 0px 5px 10px #0D1317;
 }
 
-.footer li {
+.stats {
   list-style-type: none;
+}
+
+.stats li {
+  display: inline !important;
+}
+
+.stats p {
+  margin: 0;
+}
+.large-bold {
+  font-size: 6em;
+}
+
+.footer .sitemap li {
+  list-style-type: none;
+  border-bottom: solid 2px #3C3C3C;
+  text-align: left;
+  padding: .3em;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 .footer hr {
@@ -147,4 +167,39 @@ nav ul {
   //height: 200px;
   //width: 200px;
   -o-object-fit: contain;
+}
+
+.clean-list li {
+  list-style-type: none;
+  padding: .5em;
+}
+
+.clean-list li:not(:last-child) {
+  border-bottom: solid 1px #898989;
+} 
+
+.panel {
+  text-align: center;
+  background-color: #efefef;
+}
+
+.row.panel {
+  margin-top: 2em;
+  padding-top: 0;
+}
+
+.bold {
+  text-transform: uppercase;
+}
+
+.bold h1 {
+  margin: 0;
+  font-size: 3em;
+  line-height: .8;
+}
+
+.bold h2 {
+  margin: 0;
+  font-size: 5em;
+  line-height: .8;
 }
